@@ -1,0 +1,50 @@
+.motto {
+  padding: 150px 100px 0;
+  h3 {
+    font-size: 20px;
+    color: #26a6b0;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+  }
+  h4 {
+    background: linear-gradient(
+      271.28deg,
+      #6751fe -1.29%,
+      #03c98a 53.12%,
+      #6851fe 117.3%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    margin: 0 0 30px;
+    line-height: 1.2;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  img {
+    max-width: 70%;
+    display: block;
+    margin: -105px auto 0;
+  }
+}
+@media (max-width: 1024px) {
+  .motto {
+    padding: 150px 0 0;
+  }
+}
+@media (max-width: 600px) {
+  .motto {
+    padding: 70px 0 0;
+    h4 {
+      font-size: 28px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+    img {
+      max-width: 100%;
+      margin: 40px auto 0;
+    }
+  }
+}
