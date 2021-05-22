@@ -6,6 +6,24 @@
   > * {
     width: 50%;
   }
+
+  .isometric {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .launchapp:after {
+  content: url('https://api.iconify.design/clarity:power-solid.svg?color=white&height=24');
+  vertical-align: -5px;
+  margin-right: 8px;
+
+  }
+  .discordIcon:after {
+  content: url('https://api.iconify.design/mdi-discord.svg?color=white&height=24');
+  vertical-align: -5px;
+
+  }
+
   .left {
     padding-right: 15px;
     h2 {
@@ -28,9 +46,13 @@
     a {
       background: #30648f;
       color: white;
-      padding: 12px 30px;
+      padding: 12px 26px;
       display: inline-block;
-      border-radius: 40px;
+      border-radius: 10px;
+      margin: 0px 30px 0px 0px;
+    }
+    a:hover{
+          background: #194263;
     }
   }
   .right {

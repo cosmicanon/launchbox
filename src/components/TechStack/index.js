@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.scss";
-import { floatingIcon } from "../../images";
 
 export const TechStack = () => (
   <div className="techStack" id="tech-stack">
@@ -18,14 +17,14 @@ export const TechStack = () => (
         </p>
       </div>
       <div className="right">
-        <img src={floatingIcon} alt="floating icon" />
+      hahah
       </div>
     </div>
     <div className="bottom">
       <ul>
         <li>
           <img
-            src="https://superdelux.dev/static/ba588382597d2705c6504bef74f72cc9/79b5e/fast.png"
+            src="#"
             alt=""
           />
           <h4>Target Market</h4>
@@ -36,7 +35,7 @@ export const TechStack = () => (
         </li>
         <li>
           <img
-            src="https://superdelux.dev/static/bd440e49dcfb038e3854fe8f3cd7907a/66e5b/secure.png"
+            src="#"
             alt=""
           />
           <h4>Future Market</h4>
@@ -44,7 +43,7 @@ export const TechStack = () => (
         </li>
         <li>
           <img
-            src="https://www.superdelux.dev/static/c4c34014edf1c6ba41f004c0fef82d58/66e5b/scalable.png"
+            src="#"
             alt=""
           />
           <h4>Risks</h4>
@@ -55,7 +54,7 @@ export const TechStack = () => (
         </li>
         <li>
           <img
-            src="https://www.superdelux.dev/static/028057ea3f9454dab6561f343e5250a2/66e5b/flexible.png"
+            src="#"
             alt=""
           />
           <h4>Lorem Ipsum</h4>

@@ -2,22 +2,18 @@ import React from "react";
 import {
   Seo,
   Landing,
-  Clients,
   TechStack,
-  Motto,
-  Services,
+  Overview,
   JoinCommunity,
 } from "..";
 
 export const Home = () => (
   <>
-    <Seo title="Homepage" />
+    <Seo title="LaunchBOX" description="Launch Your X" />
     <div className="container">
       <Landing />
-      <Clients />
-      <TechStack />
-      <Motto />
-      <Services />
+
+      <Overview />
       <JoinCommunity />
     </div>
   </>

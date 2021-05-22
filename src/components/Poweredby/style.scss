@@ -1,4 +1,4 @@
-.clients {
+.poweredby {
   padding: 150px 0 0;
   h2 {
     text-align: center;
@@ -23,7 +23,7 @@
   }
 }
 @media (max-width: 1024px) {
-  .clients {
+  .poweredby {
     h2 {
       text-align: left;
     }
@@ -33,7 +33,7 @@
   }
 }
 @media (max-width: 600px) {
-  .clients {
+  .poweredby {
     padding: 70px 0 0;
     ul {
       li {

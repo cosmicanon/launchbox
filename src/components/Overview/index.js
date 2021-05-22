@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.scss";
 
-export const Services = () => (
-  <div className="services" id="services">
+export const Overview = () => (
+  <div className="overview" id="overview">
     <div className="top">
       <h2>WHAT’S OUR SECRET?</h2>
       <h3>There are three things that make SuperDelux special</h3>

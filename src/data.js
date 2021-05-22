@@ -1,12 +1,3 @@
-export const STATE = {
-  price: 0.5,
-  totalSupply: 15714315, // circulating supply
-  blocksPerYear: 30 * 24 * 365.25, // one block every two minutes
-  masternodeReward: 6, // ~6 Ghost Veteran reward per block
-  stakerReward: 4, // ~4 staking reward per block
-  masternodeReqCount: 20000, // 20k $GHOST required for veteran status
-  masternodeCount: 400,
-};
 
 export const updates = [
   {

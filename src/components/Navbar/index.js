@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 1110,
     minHeight: 80,
     color: "#fff",
-    backgroundColor: "#212634",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
@@ -55,12 +54,9 @@ export const Navbar = (props) => {
 };
 
 const lists = [
-  { label: "Clients", link: "/#clients" },
-  { label: "Tech Stack", link: "/#tech-stack" },
-  { label: "Our Motto", link: "/#our-motto" },
-  { label: "Services", link: "/#services" },
+      { label: "Overview", link: "/#overview" },
+    { label: "Join Community", link: "/#join-community" },
   { label: "Roadmap", link: "/roadmap" },
-  { label: "FAQ", link: "/faq" },
 ];
 
 export const NavLinks = ({ className = "", onClick = () => 0 }) =>

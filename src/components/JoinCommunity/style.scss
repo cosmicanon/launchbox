@@ -43,6 +43,26 @@
     }
   }
 }
+
+
+.twitterIcon:after {
+  content: url('https://api.iconify.design/mdi-twitter.svg?color=white&height=22');
+  margin-right: 8px;
+
+  }
+
+.discordIcon:after {
+  content: url('https://api.iconify.design/mdi-discord.svg?color=white&height=22');
+  margin-right: 8px;
+
+  }
+
+.telegramIcon:after {
+  content: url('https://api.iconify.design/mdi-telegram.svg?color=white&height=22');
+  margin-right: 8px;
+
+  }
+
 @media (max-width: 1024px) {
   .joinCommunity {
     text-align: left;

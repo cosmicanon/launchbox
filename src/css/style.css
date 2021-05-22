@@ -6,7 +6,11 @@ html {
   scroll-behavior: smooth !important;
 }
 body {
-  background-color: #212634;
+    background: rgb(29,9,39);
+background: -moz-linear-gradient(96deg, rgba(29,9,39,1) 0%, rgba(33,38,57,1) 42%, rgba(34,51,71,1) 100%);
+background: -webkit-linear-gradient(96deg, rgba(29,9,39,1) 0%, rgba(33,38,57,1) 42%, rgba(34,51,71,1) 100%);
+background: linear-gradient(96deg, rgba(29,9,39,1) 0%, rgba(33,38,57,1) 42%, rgba(34,51,71,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d0927",endColorstr="#223347",GradientType=1);
   margin: 0 auto;
   padding: 0;
 }
@@ -34,13 +38,13 @@ a {
   color: #fff;
 }
 .appbarcolor {
-  background-color: #0ff;
+  /*background-color: #0ff;*/
 }
 .nav-container {
   margin: auto;
   max-width: 1110px;
   color: #fff;
-  background-color: #16161a;
+  /*background-color: #16161a;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
