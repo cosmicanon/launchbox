@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `LaunchBOX`,
-    description: `Launch your X`,
+    description: `Simplify your experience of earning passive stablecoins from your cryptos`,
     author: `@gatsbyjs`,
-    image: `src/img/logo3.png`
+    image: `src/img/logo3.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
