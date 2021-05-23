@@ -24,6 +24,66 @@
 
   }
 
+.telegramIcon:after {
+  content: url('https://api.iconify.design/mdi-telegram.svg?color=white&height=24');
+  vertical-align: -6px;
+  }
+
+
+
+.btcIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:btc.svg?color=%23f7931a&height=32');
+margin-right: 10px;
+}
+.bchIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:bch.svg?color=%23329239&height=32');
+margin-right: 10px;
+}
+
+.dashIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:dash.svg?color=%231376b5&height=32');
+margin-right: 10px;
+}
+.xmrIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:xmr.svg?color=%23fc6621&height=32');
+margin-right: 10px;
+}
+.zecIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:zec.svg?color=%23d38f36&height=32');
+margin-right: 10px;
+}
+
+
+.ghostIcon:after {
+content: url('https://www.ghostbyjohnmcafee.com/static/media/joincommunitylogo.3f526663.svg');
+vertical-align: -0.125em;
+width:32px;
+height:32px;
+}
+.ghoulIcon:after {
+content: url('https://ghoultoken.io/images/logo2.png');
+vertical-align: -0.125em;
+width:32px;
+height:32px;
+}
+
+.ghostdaiIcon:after {
+content: url('https://ghoultoken.io/images/ghostdai.png');
+vertical-align: -0.125em;
+width:32px;
+height:32px;
+}
+
+.chainsupport span>img{
+vertical-align: -8px;
+}
+
+.chainsupport span{
+  margin-right: 20px;
+}
+
+
+
   .left {
     padding-right: 15px;
     h2 {
@@ -40,11 +100,11 @@
       line-height: 1.2;
     }
     p {
-      font-size: 18px;
+      font-size: 16px;
       margin-bottom: 30px;
     }
     a {
-      background: #30648f;
+      background: rgb(103, 81, 254);
       color: white;
       padding: 12px 26px;
       display: inline-block;

@@ -55,7 +55,7 @@ export const Navbar = (props) => {
 
 const lists = [
       { label: "Overview", link: "/#overview" },
-    { label: "Join Community", link: "/#join-community" },
+    { label: "Community", link: "/#join-community" },
   { label: "Roadmap", link: "/roadmap" },
 ];
 

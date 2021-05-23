@@ -60,16 +60,9 @@ export const Wrapper = () => {
       <div className="road-map-container">
         <Grid container style={{ alignItems: "center" }}>
           <Grid item md={8} sm={12} xs={12}>
-            <Typography className={classes.title}>
+            <h2>
               Roadmap <span className={classes.title2}>2021</span>
-            </Typography>
-          </Grid>
-          <Grid item md={4}>
-            <img
-              src={roadMapImg}
-              alt="Roadmap"
-              className={classes.roadMapImg}
-            />
+            </h2>
           </Grid>
         </Grid>
         <Grid item sm={12} xs={12}>

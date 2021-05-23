@@ -11,12 +11,12 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   logo: {
-    width: 30,
-    height: 30,
+    width: 60,
+    height: 60,
     overflow: "visible",
     [theme.breakpoints.down("xs")]: {
-      width: 20,
-      height: 20,
+      width: 30,
+      height: 30,
     },
   },
   logoText: {

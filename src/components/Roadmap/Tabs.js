@@ -92,27 +92,27 @@ const list = [
   {
     title: "Phase 0 (In Progress)",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Development and stabilisation testing of launchBOX v1 Alpha",
   },
   {
     title: "Phase 1",
     description:
-      "3 Simple steps for launch boxes. Buy, start, claim*. Everything else is automated. 2 or 3 product versions.",
+      "launchBOX v1. Buy, configure, start. Everything else is automated for you",
   },
   {
     title: "Phase 2",
     description:
-      "Sponsored launch boxes by private investors to early projects that submit proposals. Can consider using charged.fi to create transferable NFTs of the launch boxes.",
+      "Sponsored LaunchBOX",
   },
   {
     title: "Phase 3",
     description:
-      "Governance voting. Ui configurable LaunchBox Stacks. Business model templates.",
+      "LaunchBOX Dapp Governance using $GHOUL tokens",
   },
   {
-    title: "Risk Disclaimer",
+    title: "Phase 4",
     description:
-      "to add something about experimental and use at your own risk.",
+      "LaunchBOX v2",
   },
 ];
 

@@ -62,3 +62,18 @@ a {
 .menu:hover .dropdown-menu {
   display: block;
 }
+
+
+    h2 {
+      background: linear-gradient(
+        271.28deg,
+        #6751fe -1.29%,
+        #03c98a 53.12%,
+        #6851fe 117.3%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 45px;
+      margin: 0 0 30px;
+      line-height: 1.2;
+    }
