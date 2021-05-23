@@ -25,7 +25,11 @@ export const Overview = () => (
           <h4>Configure your LaunchBOX</h4>
           <p>
             Choose the stablecoin you wish to earn from your LaunchBOX.<br/>
-            Choices include: $GHOSTDAI, $DAI, $USDT, $USDC
+            Choices include: 
+            <img className="ghostdai" alt="$GHOSTDAI" src="https://ghoultoken.io/images/ghostdai.png"/>
+            <span className="dai"> </span>
+            <span className="usdc"> </span>
+            <span className="usdt"> </span>
           </p>
         </div>
         <div className="right">

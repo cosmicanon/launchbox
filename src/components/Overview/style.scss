@@ -70,7 +70,46 @@
       }
     }
   }
+
+
+.ghostdai {
+vertical-align: -15px;
+width:32px;
+height:32px;
+margin: 5px;
+border-radius: 50px;
+border: 1px solid green;
+margin-left: 10px;
 }
+
+
+
+
+.usdc:after{
+  content: url('https://api.iconify.design/cryptocurrency:usdc.svg?color=white&height=32');
+vertical-align: -10px;
+margin-right: 10px;
+}
+.usdt:after{
+  content: url('https://api.iconify.design/cryptocurrency:usdt.svg?color=white&height=32');
+vertical-align: -10px;
+margin-right: 10px;
+}
+.dai:after{
+  content: url('https://api.iconify.design/cryptocurrency:dai.svg?color=white&height=32');
+vertical-align: -10px;
+margin-right: 10px;
+}
+
+
+
+}
+
+
+
+
+
+
 @media (max-width: 1024px) {
   .overview {
     .top {
