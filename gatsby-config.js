@@ -3,7 +3,7 @@ module.exports = {
     title: `LaunchBOX`,
     description: `Simplify your experience of earning passive stablecoins from your cryptos`,
     author: `@poltergeistlabs`,
-    image: `src/img/logo4.png`
+    image: `src/img/logo.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
