@@ -12,7 +12,7 @@ export const Landing = () => (
       <h2>
         Simplify your experience of earning passive stablecoins from your cryptos
       </h2>
-      <a href="/"><span className="launchapp"></span>Launch Dapp</a>
+      <a href="/"><span className="launchapp"></span>Launch Dapp <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
       <a href="https://t.me/poltergeistexchange">
         <span className="telegramIcon"></span> Join Community
       </a><br/><br/><br/>
