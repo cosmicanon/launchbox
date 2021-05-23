@@ -1,7 +1,6 @@
 const url =
   process.env.NODE_ENV === "production"
-    ? // https://launchbox.finance 
-    "https://launchbox-experiment.herokuapp.com"
+    ? "https://launchbox.finance" 
     : "http://localhost:8000";
 
 export const logo = url + "/images/logo.png";
