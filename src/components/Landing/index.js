@@ -10,7 +10,7 @@ export const Landing = () => (
   <div id="top" className="landing">
     <div className="left">
       <h2>
-        Simplify your experience of earning passive stablecoins.
+        Simplify your experience of earning passive stablecoins from your cryptos
       </h2>
       <a href="/"><span className="launchapp"></span>Launch Dapp</a>
       <a href="https://t.me/poltergeistexchange">
@@ -19,6 +19,9 @@ export const Landing = () => (
       <div>
         <p>
           Accepted Coins:<br/><br/>
+          <img className="ghoulIcons" alt="GHOUL" src="https://ghoultoken.io/images/logo2.png"/>
+          <img className="ghoulIcons" alt="GHOSTDAI" src="https://ghoultoken.io/images/ghostdai.png"/>
+          <img className="ghostIcon" alt="GHOST" src="https://www.ghostbyjohnmcafee.com/static/media/joincommunitylogo.3f526663.svg"/>
           <span className="btcIcon"></span>
           <span className="bchIcon"></span>
           <span className="dashIcon"></span>

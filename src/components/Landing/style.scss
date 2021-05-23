@@ -54,25 +54,24 @@ margin-right: 10px;
 }
 
 
-.ghostIcon:after {
-content: url('https://www.ghostbyjohnmcafee.com/static/media/joincommunitylogo.3f526663.svg');
+.ghostIcon {
 vertical-align: -0.125em;
 width:32px;
 height:32px;
-}
-.ghoulIcon:after {
-content: url('https://ghoultoken.io/images/logo2.png');
-vertical-align: -0.125em;
-width:32px;
-height:32px;
+margin-right: 10px;
+border-radius: 50px;
+border: 1px solid white;
 }
 
-.ghostdaiIcon:after {
-content: url('https://ghoultoken.io/images/ghostdai.png');
+.ghoulIcons {
 vertical-align: -0.125em;
 width:32px;
 height:32px;
+margin-right: 10px;
+border-radius: 50px;
+border: 1px solid green;
 }
+
 
 .chainsupport span>img{
 vertical-align: -8px;
@@ -109,10 +108,10 @@ vertical-align: -8px;
       padding: 12px 26px;
       display: inline-block;
       border-radius: 10px;
-      margin: 0px 30px 0px 0px;
+      margin: 0px 30px 30px 0px;
     }
     a:hover{
-          background: #194263;
+          background: #4836a9;
     }
   }
   .right {
@@ -126,13 +125,16 @@ vertical-align: -8px;
   }
 }
 @media (max-width: 1024px) {
+
   .landing {
     flex-direction: column;
     > * {
       width: 100%;
     }
     .left {
-      text-align: left;
+      text-align: center;
+      padding-right: 0px;
+     
       h2 {
         font-size: 40px;
       }

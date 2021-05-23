@@ -37,7 +37,7 @@ export const Overview = () => (
           <h3>STEP THREE</h3>
           <h4>Relax and Earn</h4>
           <p>
-            Our automated protocol handles the rest of the magic for you. Relax and earn up to 17% BQPR*
+            Our automated protocol handles the rest of the magic for you. Relax and earn up to 17% BQPR* on your privacy coins.
           </p><br/>
           <sm>* Bi-Quaterly Percentage Rate</sm>
         </div>
