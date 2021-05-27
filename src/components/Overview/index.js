@@ -43,7 +43,8 @@ export const Overview = () => (
           <p>
             Our automated protocol handles the rest of the magic for you. Relax and earn up to 17% BQPR* on your privacy coins.
           </p><br/>
-          <sm>* Bi-Quaterly Percentage Rate</sm>
+          <sm>* Bi-Quaterly Percentage Rate</sm><br/><br/>
+          <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
         </div>
         <div className="right">
           <img src="https://www.superdelux.dev/static/f7160919bf51861fc60e45896bd784f1/ee604/support.png" />

@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logoText: {
-    marginLeft: 17,
+    marginLeft: 3,
     fontSize: Font.size25,
     [theme.breakpoints.down("xs")]: {
       fontSize: Font.size16,

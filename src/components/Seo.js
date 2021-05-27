@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { url } from "../data";
 import { logo3 } from "../images";
 
 export const Seo = ({
