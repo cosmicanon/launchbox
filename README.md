@@ -8,7 +8,7 @@
 </h1>
 
 
-* Website: [https://launchbox.crypto](https://launchbox.crypto)
+* Website: [https://launchbox.finance](https://launchbox.finance)
 * Telegram: [https://t.me/poltergeistexchange](https://t.me/poltergeistexchange)
 
 
