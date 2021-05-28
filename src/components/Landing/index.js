@@ -2,7 +2,6 @@ import React from "react";
 import "./style.scss";
 import { Lottie } from "..";
 import { floatingIcon } from "../../images";
-import floating from "./floating_anim.json";
 
 
 

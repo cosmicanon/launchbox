@@ -14,6 +14,6 @@ export const Motto = () => (
       awards, they’ve focused on satisfying customers and users. They’re
       ex-CEOs, ex-CTOs, ex-CMOs—people who know how to win in the marketplace.
     </h5>
-    <img src="https://www.superdelux.dev/static/d0116a036978383aef7e7d0ad2a32e80/ee604/People.png" />
+
   </div>
 );

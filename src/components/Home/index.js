@@ -2,7 +2,6 @@ import React from "react";
 import {
   Seo,
   Landing,
-  TechStack,
   Overview,
   JoinCommunity,
 } from "..";
