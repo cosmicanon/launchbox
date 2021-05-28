@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://launchbox.finance">
-    <img alt="Ghoul" src="https://launchbox.finance/images/logo.svg" width="60" />
+    <img alt="Ghoul" src="https://launchbox.finance/images/logo.svg" width="120" />
   </a>
 </p>
 <h1 align="center">
