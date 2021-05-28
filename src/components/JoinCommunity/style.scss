@@ -49,6 +49,8 @@
   .logo {
     width: 130px;
     height: 130px;
+    display: block;
+    margin: 0 auto;
   }
 
 .twitterIcon:after {
@@ -71,7 +73,7 @@
 
 @media (max-width: 1024px) {
   .joinCommunity {
-    text-align: left;
+    text-align: center;
     ul {
       justify-content: flex-start;
     }

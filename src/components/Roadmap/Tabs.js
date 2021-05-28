@@ -107,7 +107,7 @@ const list = [
   {
     title: "Phase 3",
     description:
-      "LaunchBOX Dapp Governance using $GHOUL tokens",
+      "LaunchBOX Dapp Governance",
   },
   {
     title: "Phase 4",

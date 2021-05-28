@@ -27,21 +27,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: Font.size28,
     },
   },
-  title2: {
-    fontSize: Font.l,
-    fontWeight: "bold",
-    lineHeight: 1.2,
-    [theme.breakpoints.down("md")]: {
-      fontSize: Font.size40,
-    },
-    [theme.breakpoints.down("sm")]: {
-      margin: "auto",
-      textAlign: "center",
-    },
-    [theme.breakpoints.down("xs")]: {
-      fontSize: Font.size28,
-    },
-  },
+
   roadMapImg: {
     width: 150,
     display: "block",
@@ -60,7 +46,7 @@ export const Wrapper = () => {
         <Grid container style={{ alignItems: "center" }}>
           <Grid item md={8} sm={12} xs={12}>
             <h2>
-              Roadmap <span className={classes.title2}>2021</span>
+              Roadmap
             </h2>
           </Grid>
         </Grid>
