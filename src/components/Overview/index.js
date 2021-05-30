@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.scss";
+import { ghosdaiLogo } from "../../images";
 
 export const Overview = () => (
   <div className="overview" id="overview">
@@ -25,12 +26,14 @@ export const Overview = () => (
           <h4>Configure your LaunchBOX</h4>
           <p>
             Choose the stablecoin you wish to earn from your LaunchBOX.<br/>
-            Choices include: 
-            <img className="ghostdai" alt="$GHOSTDAI" src="https://ghoultoken.io/images/ghostdai.png"/>
-            <span className="dai"> </span>
-            <span className="usdc"> </span>
-            <span className="usdt"> </span>
           </p>
+            <div className="stable-support">
+              <img className="ghostdai" alt="$GHOSTDAI" src={ghosdaiLogo}/>
+              <span className="dai"> </span>
+              <span className="usdc"> </span>
+              <span className="usdt"> </span>
+              <br/><br/><b>Supported Stablecoins</b>
+            </div>
         </div>
         <div className="right">
           <img src="https://www.superdelux.dev/static/1923e6ecbde5e7be32272b833e1e6b79/ee604/board.png" />

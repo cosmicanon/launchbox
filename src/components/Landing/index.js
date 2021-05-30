@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import { Lottie } from "..";
-import { floatingIcon } from "../../images";
+import { floatingIcon, ghosdaiLogo } from "../../images";
 
 
 
@@ -9,7 +9,7 @@ export const Landing = () => (
   <div id="top" className="landing">
     <div className="left">
       <h2>
-        Simplify your experience of earning passive stablecoins from your cryptos
+        Earn passive stablecoins from your cryptos
       </h2>
       <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
       <a href="https://t.me/poltergeistexchange" target="_blank"  rel="noreferrer" >
@@ -19,7 +19,7 @@ export const Landing = () => (
         <p>
           Accepted Coins:<br/><br/>
           <img className="ghoulIcons" alt="GHOUL" src="https://ghoultoken.io/images/logo2.png"/>
-          <img className="ghoulIcons" alt="GHOSTDAI" src="https://ghoultoken.io/images/ghostdai.png"/>
+          <img className="ghoulIcons" alt="GHOSTDAI" src={ghosdaiLogo}/>
           <img className="ghostIcon" alt="GHOST" src="https://www.ghostbyjohnmcafee.com/static/media/joincommunitylogo.3f526663.svg"/>
           <span className="btcIcon"></span>
           <span className="bchIcon"></span>

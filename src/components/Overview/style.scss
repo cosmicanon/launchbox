@@ -93,7 +93,7 @@ height:32px;
 margin: 5px;
 border-radius: 50px;
 border: 1px solid green;
-margin-left: 10px;
+margin-right: 10px;
 }
 
 
@@ -105,21 +105,32 @@ margin-left: 10px;
   }
 
 .usdc:after{
-  content: url('https://api.iconify.design/cryptocurrency:usdc.svg?color=white&height=32');
+  content: url('https://api.iconify.design/cryptocurrency:usdc.svg?color=%232775CA&height=32');
 vertical-align: -10px;
 margin-right: 10px;
 }
 .usdt:after{
-  content: url('https://api.iconify.design/cryptocurrency:usdt.svg?color=white&height=32');
+  content: url('https://api.iconify.design/cryptocurrency:usdt.svg?color=%2312946c&height=32');
 vertical-align: -10px;
 margin-right: 10px;
 }
 .dai:after{
-  content: url('https://api.iconify.design/cryptocurrency:dai.svg?color=white&height=32');
+  content: url('https://api.iconify.design/cryptocurrency:dai.svg?color=%23fccc64&height=32');
 vertical-align: -10px;
 margin-right: 10px;
 }
 
+
+
+.stable-support{
+  background-color: white;
+  padding:20px;
+  margin: 30px;
+  text-align: center;
+  color: #000;
+  border-radius: 10px;
+
+}
 
 
 }
