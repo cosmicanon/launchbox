@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import { ghosdaiLogo } from "../../images";
+import { ghosdaiLogo, stepOne, stepTwo, stepThree } from "../../images";
 
 export const Overview = () => (
   <div className="overview" id="overview">
@@ -13,11 +13,11 @@ export const Overview = () => (
           <h3>STEP ONE</h3>
           <h4>Purchase a LaunchBOX</h4>
           <p>
-            Select and buy a LaunchBOX from the Dapp's catalog.
+            Select and buy a Launch<b>BOX</b> from the Dapp's catalog.
           </p>
         </div>
         <div className="right">
-          <img src="https://www.superdelux.dev/static/2575fc1f02d55f24cd390a5eb3ae26be/88670/playbook.png" />
+          <img src={stepOne}  alt="Step One" />
         </div>
       </div>
       <div className="item swap">
@@ -25,7 +25,7 @@ export const Overview = () => (
           <h3>STEP TWO</h3>
           <h4>Configure your LaunchBOX</h4>
           <p>
-            Choose the stablecoin you wish to earn from your LaunchBOX.<br/>
+            Choose the stablecoin you wish to earn from your <b>LaunchBOX</b>.<br/>
           </p>
             <div className="stable-support">
               <img className="ghostdai" alt="$GHOSTDAI" src={ghosdaiLogo}/>
@@ -36,7 +36,7 @@ export const Overview = () => (
             </div>
         </div>
         <div className="right">
-          <img src="https://www.superdelux.dev/static/1923e6ecbde5e7be32272b833e1e6b79/ee604/board.png" />
+          <img src={stepTwo}  alt="Step Two" />
         </div>
       </div>
       <div className="item">
@@ -46,11 +46,11 @@ export const Overview = () => (
           <p>
             Our automated protocol handles the rest of the magic for you. Relax and earn up to 17% APR* in stablecoins, from your launchBOX.
           </p><br/>
-          <sm>* Annual Percentage Rate</sm><br/><br/>
+          <sm>* Annual Percentage Rate - based on purchased LaunchBOX price</sm><br/><br/>
           <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
         </div>
         <div className="right">
-          <img src="https://www.superdelux.dev/static/f7160919bf51861fc60e45896bd784f1/ee604/support.png" />
+          <img src={stepThree} alt="Step Three" />
         </div>
       </div>
     </div>

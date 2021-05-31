@@ -88,11 +88,10 @@
 
 .ghostdai {
 vertical-align: -15px;
-width:32px;
-height:32px;
+width:60px;
+height:60px;
 margin: 5px;
 border-radius: 50px;
-border: 1px solid green;
 margin-right: 10px;
 }
 
@@ -105,17 +104,17 @@ margin-right: 10px;
   }
 
 .usdc:after{
-  content: url('https://api.iconify.design/cryptocurrency:usdc.svg?color=%232775CA&height=32');
+  content: url('https://api.iconify.design/cryptocurrency:usdc.svg?color=%232775CA&height=60');
 vertical-align: -10px;
 margin-right: 10px;
 }
 .usdt:after{
-  content: url('https://api.iconify.design/cryptocurrency:usdt.svg?color=%2312946c&height=32');
+  content: url('https://api.iconify.design/cryptocurrency:usdt.svg?color=%2312946c&height=60');
 vertical-align: -10px;
 margin-right: 10px;
 }
 .dai:after{
-  content: url('https://api.iconify.design/cryptocurrency:dai.svg?color=%23fccc64&height=32');
+  content: url('https://api.iconify.design/cryptocurrency:dai.svg?color=%23fccc64&height=60');
 vertical-align: -10px;
 margin-right: 10px;
 }

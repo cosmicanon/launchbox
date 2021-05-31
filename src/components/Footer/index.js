@@ -5,7 +5,7 @@ export const Footer = () => (
   <footer>
     <div className="container">
       <div className="copyright">
-        <p>2021 &copy; LaunchBOX</p>
+        <p>2021 &copy; Launch<b>BOX</b></p>
         <a href="#top">Back to Top</a>
       </div>
     </div>
