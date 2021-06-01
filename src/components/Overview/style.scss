@@ -86,7 +86,11 @@
   }
 
 
-.ghostdai {border: 2px solid green;}
+.ghostdai {
+    border: 2px solid green;
+    height: 58px!important;
+    width: 58px!important;
+}
 
 
 .ghostdai,.usdc,.usdt,.dai {

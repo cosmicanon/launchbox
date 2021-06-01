@@ -5,6 +5,7 @@ const url =
 
 export const logo = url + "/images/logo.svg";
 export const logo3 = url + "/images/logo3.png";
+export const ghoulLogo = url + "/images/ghoullogo.png";
 export const ghostdaiLogo = url + "/images/ghostdai.png";
 export const stepOne = url + "/images/stepone.svg";
 export const stepTwo = url + "/images/steptwo.svg";
