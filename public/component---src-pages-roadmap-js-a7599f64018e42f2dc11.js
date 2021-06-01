@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[917],{3667:function(e,t,a){"use strict";a.r(t);var r=a(7294),u=a(5591);t.default=function(e){return r.createElement(u.Ar,e,r.createElement(u.wG,null))}}}]);
+//# sourceMappingURL=component---src-pages-roadmap-js-a7599f64018e42f2dc11.js.map
