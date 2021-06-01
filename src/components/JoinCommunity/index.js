@@ -14,11 +14,6 @@ export const JoinCommunity = () => (
           <span className="telegramIcon" alt="Poltergeist Exchange Telegram"></span> Telegram
         </a>
       </li>
-      <li>
-        <a href="http://discord.gg/n2qgHcmBNr">
-          <span className="discordIcon" alt="Poltergeist Labs Discord"></span> Discord
-        </a>
-      </li>
     </ul>
   </section>
 );

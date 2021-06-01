@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.scss";
 import { Lottie } from "..";
-import { floatingIcon, ghosdaiLogo } from "../../images";
+import { floatingIcon, ghostdaiLogo } from "../../images";
+import floating from "./floating_anim.json";
 
 
 
@@ -19,7 +20,7 @@ export const Landing = () => (
         <p>
           Accepted Coins:<br/><br/>
           <img className="ghoulIcons" alt="GHOUL" src="https://ghoultoken.io/images/logo2.png"/>
-          <img className="ghoulIcons" alt="GHOSTDAI" src={ghosdaiLogo}/>
+          <img className="ghoulIcons" alt="GHOSTDAI" src={ghostdaiLogo}/>
           <img className="ghostIcon" alt="GHOST" src="https://www.ghostbyjohnmcafee.com/static/media/joincommunitylogo.3f526663.svg"/>
           <span className="btcIcon"></span>
           <span className="bchIcon"></span>
@@ -31,7 +32,11 @@ export const Landing = () => (
       </div>      
     </div>
     <div className="right">
-      <img src="https://www.superdelux.dev/static/2575fc1f02d55f24cd390a5eb3ae26be/88670/playbook.png" />
+      
+
+              <Lottie
+                element={floating}
+              />
     </div>
 
   </div>

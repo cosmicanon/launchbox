@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import { ghosdaiLogo, stepOne, stepTwo, stepThree } from "../../images";
+import { ghostdaiLogo, stepOne, stepTwo, stepThree } from "../../images";
 
 export const Overview = () => (
   <div className="overview" id="overview">
@@ -28,7 +28,7 @@ export const Overview = () => (
             Choose the stablecoin you wish to earn from your <b>LaunchBOX</b>.<br/>
           </p>
             <div className="stable-support">
-              <img className="ghostdai" alt="$GHOSTDAI" src={ghosdaiLogo}/>
+              <img className="ghostdai" alt="$GHOSTDAI" src={ghostdaiLogo}/>
               <span className="dai"> </span>
               <span className="usdc"> </span>
               <span className="usdt"> </span>
@@ -44,9 +44,9 @@ export const Overview = () => (
           <h3>STEP THREE</h3>
           <h4>Relax and Earn</h4>
           <p>
-            Our automated protocol handles the rest of the magic for you. Relax and earn up to 17% APR* in stablecoins, from your launchBOX.
-          </p><br/>
-          <sm>* Annual Percentage Rate - based on purchased LaunchBOX price</sm><br/><br/>
+            Up to 17% APR* in stablecoins. <br/>Our automated protocol handles the rest of the magic for you. 
+          </p><br/><br/>
+          <sm>* Annual Percentage Rate - based on the price of a purchased LaunchBOX</sm><br/><br/>
           <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
         </div>
         <div className="right">

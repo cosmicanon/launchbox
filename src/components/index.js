@@ -11,3 +11,4 @@ export * from "./Motto";
 export * from "./Overview";
 export * from "./Footer";
 export * from "./JoinCommunity";
+export * from "./Lottie";
