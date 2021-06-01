@@ -86,7 +86,10 @@
   }
 
 
-.ghostdai {
+.ghostdai {border: 2px solid green;}
+
+
+.ghostdai,.usdc,.usdt,.dai {
 vertical-align: -15px;
 width:60px;
 height:60px;
@@ -122,12 +125,7 @@ margin-right: 10px;
 
 
 .stable-support{
-  background-color: white;
-  padding:20px;
-  margin: 30px;
-  text-align: center;
-  color: #000;
-  border-radius: 10px;
+  padding:20px 0px;
 
 }
 

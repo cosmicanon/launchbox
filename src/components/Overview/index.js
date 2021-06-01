@@ -28,11 +28,12 @@ export const Overview = () => (
             Choose the stablecoin you wish to earn from your <b>LaunchBOX</b>.<br/>
           </p>
             <div className="stable-support">
+            <p>Supported Stablecoins:</p><br/>
               <img className="ghostdai" alt="$GHOSTDAI" src={ghostdaiLogo}/>
-              <span className="dai"> </span>
-              <span className="usdc"> </span>
-              <span className="usdt"> </span>
-              <br/><br/><b>Supported Stablecoins</b>
+              <img className="dai" alt="$DAI" src="https://seeklogo.com/images/D/dai-dai-logo-1AFFA0EDE5-seeklogo.com.png"/>
+              <img className="usdc" alt="$USDC" src="https://cryptologos.cc/logos/usd-coin-usdc-logo.svg?v=010"/>
+              <img className="usdt" alt="$USDT" src="https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png"/>
+              
             </div>
         </div>
         <div className="right">
