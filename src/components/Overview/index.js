@@ -45,7 +45,7 @@ export const Overview = () => (
           <h3>STEP THREE</h3>
           <h4>Relax and Earn</h4>
           <p>
-            Up to 17% APR* in stablecoins. <br/>Our automated protocol handles the rest of the magic for you. 
+            Up to 12% APR* in stablecoins. <br/>Our automated protocol handles the rest of the magic for you. 
           </p><br/><br/>
           <sm>* Annual Percentage Rate - based on the price of a purchased LaunchBOX</sm><br/><br/>
           <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
