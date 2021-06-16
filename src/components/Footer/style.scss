@@ -16,3 +16,44 @@ footer {
     }
   }
 }
+
+.btcIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:btc.svg?color=%23f7931a&height=32');
+margin-right: 10px;
+}
+.bchIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:bch.svg?color=%23329239&height=32');
+margin-right: 10px;
+}
+
+.dashIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:dash.svg?color=%231376b5&height=32');
+margin-right: 10px;
+}
+.xmrIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:xmr.svg?color=%23fc6621&height=32');
+margin-right: 10px;
+}
+.zecIcon:after {
+content: url('https://api.iconify.design/cryptocurrency:zec.svg?color=%23d38f36&height=32');
+margin-right: 10px;
+}
+
+
+.ghostIcon {
+vertical-align: -0.125em;
+width:32px;
+height:32px;
+margin-right: 10px;
+border-radius: 50px;
+border: 1px solid white;
+}
+
+.ghoulIcons {
+vertical-align: -0.125em;
+width:32px;
+height:32px;
+margin-right: 10px;
+border-radius: 50px;
+border: 1px solid green;
+}
