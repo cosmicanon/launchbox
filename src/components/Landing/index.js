@@ -14,7 +14,7 @@ export const Landing = () => (
       <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
       <a href="https://t.me/poltergeistexchange" target="_blank"  rel="noreferrer" >
         <span className="telegramIcon"></span> Join Telegram
-      </a><br/><br/><br/>     
+      </a>    
     </div>
     <div className="right">
       
