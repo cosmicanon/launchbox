@@ -8,7 +8,7 @@ export const Footer = () => (
       <div className="copyright">
         <p>2021 &copy; Launch<b>BOX</b><br/><br/>
           <a href="https://ghoultoken.io" target="_blank"  rel="noreferrer"><img className="ghoulIcons" alt="GHOUL" src={ghoulLogo}/></a>
-          <a href="https://ghoultoken.io" target="_blank"  rel="noreferrer"><img className="ghoulIcons" alt="GHOSTDAI" src={ghostdaiLogo}/></a>
+          <a href="https://ghoul.finance" target="_blank"  rel="noreferrer"><img className="ghoulIcons" alt="GHOSTDAI" src={ghostdaiLogo}/></a>
         </p>
  
         <a href="#top">Back to Top</a>
