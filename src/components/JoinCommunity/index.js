@@ -10,8 +10,8 @@ export const JoinCommunity = () => (
     <p>Let's BUIDL and grow something awesome together!</p>
     <ul>
       <li>
-        <a href="https://t.me/poltergeistexchange">
-          <span className="telegramIcon" alt="Poltergeist Exchange Telegram"></span> Telegram
+        <a href="https://t.me/poltergeistlabs">
+          <span className="telegramIcon" alt="Poltergeist Labs Telegram"></span> Telegram
         </a>
       </li>
     </ul>

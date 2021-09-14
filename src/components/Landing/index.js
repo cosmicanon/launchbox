@@ -12,7 +12,7 @@ export const Landing = () => (
         Earn passive income from your online purchases
       </h2>
       <a href="/"><span className="launchapp"></span>Launch App <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span></a>
-      <a href="https://t.me/poltergeistexchange" target="_blank"  rel="noreferrer" >
+      <a href="https://t.me/poltergeistlabs" target="_blank"  rel="noreferrer" >
         <span className="telegramIcon"></span> Join Telegram
       </a>    
     </div>
